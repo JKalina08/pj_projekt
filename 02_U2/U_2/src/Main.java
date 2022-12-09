@@ -8,8 +8,6 @@ public class Main {
         n.setType(Nadrz.Type.ETHANOL);
         n.print();
 
-
-
         System.out.println("Odebiram 15");
         try {
             n.odebrat(15);

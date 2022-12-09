@@ -31,17 +31,17 @@ public class ASCII {
 
     public static void kompletASCII(){
         System.out.println();
-        System.out.println("|Kompletni tabulka pisem a cislic s ASCII kodem |");
-        System.out.println("|-----------------------------------------------|");
+        System.out.println("|Kompletni tabulka pisem a cislic s ASCII kodem                                         |");
+        System.out.println("|---------------------------------------------------------------------------------------|");
         int delta = (int)'A' - (int)'a';
         int i = (int)'a';
         do{
-            System.out.println("| " + toASCIIdec((char)i) + "\t\t| " + toASCIIdec((char)(i+delta)) + "\t\t|");
+            System.out.println("| " + toASCIIdec((char)i) + ", " + toASCIIhex((char)i) + "\t\t| " + toASCIIdec((char)(i+delta)) + ", " + toASCIIhex((char)(i+delta))+ "\t\t|");
             i++;
         }while( i <= (int)'z');
         i = (int)'0';
         do{
-            System.out.println("| " + toASCIIdec((char)i) + "\t\t\t\t\t\t\t\t|");
+            System.out.println("| " + toASCIIdec((char)i) + ", " + toASCIIhex((char)i) + "\t\t\t\t\t\t\t\t\t\t\t\t\t|");
             i++;
         }while( i <= (int)'9');
 

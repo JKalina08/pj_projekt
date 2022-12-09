@@ -1,4 +1,7 @@
+
+
 public class Nadrz {
+
 
     int max;
     int state;

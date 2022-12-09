@@ -21,7 +21,6 @@ public class HraPosunSachovnici {
     }
 
     public boolean move(DIRECTION dir){
-//        System.out.println(dir.name()); //debug
         if(can_move(dir)){
             switch(dir) {
                 case up:
